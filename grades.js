@@ -1,9 +1,9 @@
 function generateGrade() {
   //prompt user to input student marks.
   const grades = prompt("Enter student marks(0 to 100);");
-  //convert the input to a number.
-  grades = parseFloat(marks);
-  //check if the marks are within the valid range or not.
+   //convert the input to a number.
+    grades=parseFloat(marks)
+   //check if the marks are within the valid range or not.
   if (marks < 0 || marks > 100) {
     console.log("invalid marks!Please enter a value between 0 and 100.");
   } else {
@@ -21,8 +21,8 @@ function generateGrade() {
       grade("F");
     }
   }
-
-  //shows the grade and marks f
+  
+//shows the grade and marks 
   console.log(`The grade for marks ${marks} is: ${grades}`);
 }
 //calling the function
